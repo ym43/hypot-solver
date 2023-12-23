@@ -1,0 +1,30 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+label {
+    font-size: 40px;
+    color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+input {
+    font-size: 20px;
+    font-weight: 900;
+    border:2px solid green;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
